@@ -8,7 +8,7 @@ The goal of this project is to classify the sex of participants in clinical tria
 Text descriptions of clinical research trials were refined through a series of text processing steps.  Using natural lanaguage processing, classification models were trained and tested to examine disparities in research topics between studies focusing on females and those focusing on males. 
 
 ## Model Implications
-Researchers can use the coeffcieints of these models to investigate gender representation in various fields and areas of study, aiding grant applications and literature reviews. Grant funding agencies can use the output of these models to invest money in areas of research with gender gaps.
+Researchers can use the coefficients of these models to investigate gender representation in various fields and areas of study, aiding grant applications and literature reviews. Grant funding agencies can use the output of these models to invest money in areas of research with gender gaps.
 
 ## Programming Language
 * Python - Jupyter Notebook
