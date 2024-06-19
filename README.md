@@ -1,11 +1,11 @@
 # Identifying Gender Gaps in Clinical Trial Research
 
 ## Project Background
-There is a historical gender gap in clinical trial participation. The NIH Revitalization Act of 1993 introduced the requirement for females to be in clinical trial research.
-The goal of this project is to classify the sex of participants in clinical trials from text descriptions of research goals pulled from the ClinicalTrials.gov API. 
+There is a historical gender gap in clinical trial participation. The National Institutes of Health (NIH) Revitalization Act of 1993 introduced the requirement for females, in addition to underrepresented racial and ethnic minority populations, to be included in clinical trial research.
+The goal of this project is to classify the sex of participants in clinical trials from text descriptions of research goals pulled from the ClinicalTrials.gov API. More info about the API can be found here: https://clinicaltrials.gov/data-api/api. 
 
 ## Methods
-Using natural lanaguage processing, classification models were trained and tested to examine disparities in research topics between studies focusing on females and those focusing on males. 
+Text descriptions of clinical research trials were refined through a series of text processing steps.  Using natural lanaguage processing, classification models were trained and tested to examine disparities in research topics between studies focusing on females and those focusing on males. 
 
 ## Model Implications
 Researchers can use the coeffcieints of these models to investigate gender representation in various fields and areas of study, aiding grant applications and literature reviews. Grant funding agencies can use the output of these models to invest money in areas of research with gender gaps.
@@ -16,5 +16,9 @@ Researchers can use the coeffcieints of these models to investigate gender repre
 ## Notes on Model Use
 * Adjust max_requests parameter in the API call depending on how much data you'd like to retrieve
 * Data from API call is saved as .csv and .json to the "data_files" folder to prevent subsequent duplicate calls to the API
-* The models will output the research topics with gender gaps into the folder "gender_gaps" as a .csv file 
+* The models will output the research topics with gender gaps into the folder "gender_gaps" as a .csv file
+
+## References
+ClinicalTrials.gov API. Clinicaltrials.gov. (n.d.). 
+
   
