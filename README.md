@@ -15,5 +15,6 @@ Researchers can use the coeffcieints of these models to investigate gender repre
 
 ## Notes on Model Use
 * Adjust max_requests parameter in the API call depending on how much data you'd like to retrieve
-* Data from API call is saved as .csv and .json to the data_files folder to prevent subsequent duplicate calls to the API
+* Data from API call is saved as .csv and .json to the "data_files" folder to prevent subsequent duplicate calls to the API
+* The models will output the research topics with gender gaps into the folder "gender_gaps" as a .csv file 
   
