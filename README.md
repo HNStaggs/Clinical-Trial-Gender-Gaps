@@ -20,7 +20,7 @@ Researchers can use the coefficients of these models to investigate gender repre
 * Male coded as 1, female as 0
 * SVM Coefficient Interpretation: Positive Values indicate vector magnitude for "Male", and negative values indicate vector magnitude for "Female"
 * Logistic Regression Coefficient Interpretation: Odds ratios above 1 increase odds for "male", odd ratios below 1 decrease odds for "male" i.e., increase for "female"
-* Naive Bayes Coefficient Interpreation: The order of the ratio shows which sex that token is overrepresented for. For examle, 0:1 with a value of 15 would indiciated 15x more studies done on that topic for females compared to males, and 1:0 with a value of 5 would indicate 5x more studies done on that topic for males compared to females. 
+* Naive Bayes Coefficient Interpreation: The order of the ratio shows which sex that token is overrepresented for. For example, 0:1 with a value of 15 would indiciated 15x more studies done on that topic for females compared to males, and 1:0 with a value of 5 would indicate 5x more studies done on that topic for males compared to females. 
 
 ## References
 ClinicalTrials.gov API. Clinicaltrials.gov. (n.d.). 
